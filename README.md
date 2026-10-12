@@ -1,1 +1,1 @@
-# Plant-Disease-Detection-System-Early-aage
+# Early-Plant-Disease-Detection-System
