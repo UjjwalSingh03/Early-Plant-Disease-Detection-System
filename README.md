@@ -56,3 +56,13 @@ This project aims to:
 - Limited to identifying common diseases from the dataset.
 - Does not include sensor-based or soil-based disease detection.
 
+## 🛠️ Proposed Methodology
+
+- 📂 **Data Collection**: Use publicly available plant disease datasets.
+- ✂️ **Preprocessing**: Standardize and enhance images for model training.
+- 🤖 **Model Development**: Train a CNN-based model using TensorFlow.
+- 🌐 **Interface**: Build a user-friendly interface with Streamlit.
+
+---
+
+
