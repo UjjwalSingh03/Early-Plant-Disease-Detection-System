@@ -8,7 +8,7 @@ The **Plant Disease Detection System** is an AI-powered solution designed to ide
 
 ## 🌟 Abstract
 
-The **Plant Disease Detection System** is built using **TensorFlow**, **Python**, and **Streamlit** to provide:
+The **Plant Disease Detection System** is built using **TensorFlow**, **Python**, and **Docker** to provide:
 
 - 🕒 **Early Detection**: Timely identification of plant diseases to improve crop health.
 - 🤝 **User-Friendly Interface**: Simple upload of plant leaf images for instant feedback.
@@ -61,7 +61,7 @@ This project aims to:
 - 📂 **Data Collection**: Use publicly available plant disease datasets.
 - ✂️ **Preprocessing**: Standardize and enhance images for model training.
 - 🤖 **Model Development**: Train a CNN-based model using TensorFlow.
-- 🌐 **Interface**: Build a user-friendly interface with Streamlit.
+- 🌐 **Interface**: Build a user-friendly interface with Docker
 
 ---
 
