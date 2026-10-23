@@ -1,0 +1,40 @@
+{
+  "project": "Tomato Disease Detection using Deep Learning",
+  "dataset": "PlantVillage Tomato Subset",
+  "image_size": "64x64",
+  "total_original_images": 18160,
+  "capped_per_class": 800,
+  "num_classes": 10,
+  "classes": [
+    "Bacterial spot",
+    "Early blight",
+    "Late blight",
+    "Leaf Mold",
+    "Septoria leaf spot",
+    "Spider mites Two-spotted spider mite",
+    "Target Spot",
+    "Tomato Yellow Leaf Curl Virus",
+    "Tomato mosaic virus",
+    "healthy"
+  ],
+  "Custom_CNN": {
+    "test_accuracy": 0.4584,
+    "test_loss": 4.5074,
+    "macro_f1": 0.4608,
+    "macro_precision": 0.7202,
+    "macro_recall": 0.4672,
+    "train_time_min": 11.9
+  },
+  "MobileNetV2": {
+    "test_accuracy": 0.6975,
+    "test_loss": 1.0142,
+    "macro_f1": 0.7117,
+    "macro_precision": 0.7734,
+    "macro_recall": 0.7065,
+    "train_time_min": 3.8
+  },
+  "best_model": "MobileNetV2",
+  "best_accuracy": 0.6975,
+  "plots_dir": "/Users/shubhamjaiswal/Desktop/Disease Project/tomato_output/plots",
+  "models_dir": "/Users/shubhamjaiswal/Desktop/Disease Project/tomato_output/models"
+}

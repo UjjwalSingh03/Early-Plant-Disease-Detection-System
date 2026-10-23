@@ -1,0 +1,79 @@
+# =============================================================================
+# Git Ignore - Plant & Tomato Disease Detection System
+# =============================================================================
+
+docs/Plant_Disease_Project_Complete_Guide.pdf
+docs/Tomato_Disease_Project_Team_Handbook.pdf
+PROJECT_PHASE_TRACKER.md
+docs/PROJECT_APPROVAL_COMMITTEE_DOSSIER.md
+# Python / Cache / Byte-compiled files
+__pycache__/
+.agents
+.claude
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS / OS Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Sensitive / Credentials / Tokens
+credentials.toml
+app/credentials.toml
+*.env
+*.env.*
+*.pem
+*.key
+kaggle.json
+client_secrets*.json
+secrets/
+
+# Large Datasets (Avoid bloating git repo with 19,000+ images)
+tomato_output/tomato_dataset/
+*/tomato_dataset/
+dataset/
+PlantVillage/
+*.zip
+*.tar.gz
+*.tgz
+
+# Heavy Model Checkpoints & Logs
+tomato_output/models/*.keras
+*.log
+scratch/
+.system_generated/
